@@ -31,7 +31,7 @@ def main():
     x = int(askNumber())
     a = askAction()
 
-    if(a != "E"):
+    while(a != "E"):
         y = int(askNumber())
 
         if (a == "A"):
